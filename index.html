@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffe Light</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffe Light</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
+
 <body>
-    
+  <!--Navigation-->
+  <div class="topnav" id="myTopnav">
+    <div class="container">
+      <a href="#" class="logo">Cafe House</a>
+      <a href="#">Contact</a>
+      <a href="#">Menu</a>
+      <a href="#">Today Special</a>
+      <a href="#">Home</a>
+   
+    <a href="javascript:void(0);" class="icon" onclick="btnJs()">
+      <i class="fas fa-bars fa-2x"></i>
+    </a>
+  </div>
+  </div>
+  <div class="headerClass" id="header">
+    <div class="container">
+      <div class="lights">
+        <div>
+          <div id="img-1" class="light-1"></div>
+          <img onmouseenter="imgEnterOne()" onmouseleave="imgLeaveOne()"
+            src="https://templatemo.com/templates/templatemo_466_cafe_house/img/light.png" alt="">
+        </div>
+        <div>
+          <div id="img-2" class="light-2"></div>
+          <img src="https://templatemo.com/templates/templatemo_466_cafe_house/img/light.png" alt="">
+        </div>
+        <div>
+          <div id="img-3" class="light-3"></div>
+          <img onmouseenter="imgEnterThree()"
+            src="https://templatemo.com/templates/templatemo_466_cafe_house/img/light.png" alt="">
+        </div>
+      </div>
+      <div class="text">
+        <div class="title">
+          <h1>Welcome to </h1><span
+            style="color:  rgb(177, 120, 47); text-transform: uppercase; font-size: 62px;font-family: 'Times New Roman', serif;">Cafe
+            House</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet augue
+           eget justo semper vulputate. Sed massa leo, 
+          ullamcorper in pharetra cursus, eleifend non nunc. Pellentesque eget ullamcorper
+           enim, eu eleifend nibh. Integer ante turpis, ultricies a varius eget, efficitur
+            quis dui. Maecenas sed fermentum lectus. Cras in volutpat sem, at pretium nisl.
+
+        </p>
+      </div>
+    </div>
+    <div class="buttons">
+      <div class="DivOn" onclick="onLight()" id="div1Btn">
+        <audio id="myAudio">
+          <source src="Sclick.mp3" type="audio/mpeg">
+          <source src="Sclick.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+    <a href="#" class="btn on">I</a>
+      </div>
+
+      <div class="DivOff activeBtn" onclick="OffLight()" id="div2Btn">
+        <a href="#" class="btn off">0</a>
+      </div>
+    </div>
+
+    <div class="bar">
+      <img src="https://templatemo.com/templates/templatemo_466_cafe_house/img/table-set.png" alt="">
+    </div>
+  </div>
+
+  <section class="middle">
+    <img src="piso1.jpg" alt="">
+  </section>
+
+  <script src="js/script.js"></script>
 </body>
+
 </html>
