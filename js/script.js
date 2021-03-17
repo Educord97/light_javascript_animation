@@ -47,8 +47,8 @@ function onLight() {
 
     let header = document.getElementById("header");
     let img1 = document.getElementById("img-1");
-    var img2 = document.getElementById("img-2");
-    var img3 = document.getElementById("img-3");
+    let img2 = document.getElementById("img-2");
+    let img3 = document.getElementById("img-3");
     
       if(img1.className || img2.className || img3.className === "light-1" || "light-2" || "light-3" || header.className === "headerClass") {
 
