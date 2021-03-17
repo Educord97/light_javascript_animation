@@ -46,7 +46,7 @@ function onLight() {
 
 
     let header = document.getElementById("header");
-    var img1 = document.getElementById("img-1");
+    let img1 = document.getElementById("img-1");
     var img2 = document.getElementById("img-2");
     var img3 = document.getElementById("img-3");
     
