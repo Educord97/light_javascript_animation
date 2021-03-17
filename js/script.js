@@ -33,7 +33,7 @@ function onLight() {
     audio.play();
    
     let OnActiveBtn = document.getElementById("div1Btn"); 
-    var offActiveBtn = document.getElementById("div2Btn");
+    let offActiveBtn = document.getElementById("div2Btn");
 
       if( offActiveBtn.className === "activeBtn") {
            OnActiveBtn.className = "disableBtn"; 
@@ -45,7 +45,7 @@ function onLight() {
 
 
 
-    var header = document.getElementById("header");
+    let header = document.getElementById("header");
     var img1 = document.getElementById("img-1");
     var img2 = document.getElementById("img-2");
     var img3 = document.getElementById("img-3");
