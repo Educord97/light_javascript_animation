@@ -29,10 +29,10 @@ function btnJs() {
 
 function onLight() {
     //audio
-    var audio = document.getElementById("myAudio");
+    let audio = document.getElementById("myAudio");
     audio.play();
    
-    var OnActiveBtn = document.getElementById("div1Btn"); 
+    let OnActiveBtn = document.getElementById("div1Btn"); 
     var offActiveBtn = document.getElementById("div2Btn");
 
       if( offActiveBtn.className === "activeBtn") {
